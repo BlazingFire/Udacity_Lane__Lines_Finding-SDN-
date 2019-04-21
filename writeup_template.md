@@ -37,11 +37,11 @@ If you'd like to include images to show how the pipeline works, here is how to i
 
 One potential shortcoming would be what would happen when ... 
 
-Another shortcoming could be ...
+Another shortcoming could be the camera perspective as finally a straight line is drawn from topmost y coordinate to bottom of the image which might create some off results.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to use region masking values as per the image size
 
-Another potential improvement could be to ...
+Another potential improvement could be to detect only a single left and right lane as in the later examples many lines were detected, probably this could be handles with a better masking of region.
